@@ -33,8 +33,6 @@ public class ItemTrigger : MonoBehaviour
             }
             //삭제
             Destroy(gameObject);
-
-            Debug.Log(itemManager.hasItem);
         }
         else
         {

@@ -16,7 +16,7 @@ public class BoostMoss : Item
     {
         torque = new Vector3(0, 300f, -100f) * boostForce;
         playerTr = GameObject.Find("Player").GetComponent<Transform>();
-        pelvis = GameObject.Find("pelvis").GetComponent<Rigidbody>();
+        pelvis = GameObject.Find("realpelvis").GetComponent<Rigidbody>();
         base.itemType = ItemType.BosstMoss;
         base.itemName = "부스터 이끼";
         base.itemDescription = "나무늘보의 엉덩이 털에 서식하며 나무늘보가 긴급탈출 할 때 사용하는 이끼이다." +

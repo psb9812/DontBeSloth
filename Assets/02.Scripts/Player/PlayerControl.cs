@@ -9,11 +9,11 @@ public class PlayerControl : MonoBehaviour
     RaycastHit hit;
     public Rigidbody pelvis;
     Vector3 torque;
-    public float rotForce = 100;
+    float rotForce = 8f;
     public bool isImmun = false;
 
     public GameObject[] hinges;
-
+    
     AudioSource playerAudio;
     public AudioClip turnSound;
 
@@ -21,7 +21,7 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         playerAudio = GetComponent<AudioSource>();
-        torque = new Vector3(0, 20, -40f) * rotForce;
+        torque = new Vector3(0, 20, -30f) * rotForce;
         this.transform.SetParent(null);
     }
 

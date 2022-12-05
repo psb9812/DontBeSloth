@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject clearPanel;
     bool nowMenu;
+
     [HideInInspector]
     public bool isClear = false;
 

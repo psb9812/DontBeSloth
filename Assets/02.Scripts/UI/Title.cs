@@ -121,7 +121,4 @@ public class Title : MonoBehaviour
             masterMixer.SetFloat("SFX", SFXSound);
         }
     }
-
-
-
 }
